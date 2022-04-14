@@ -4,20 +4,69 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>AJAX</title>
   </head>
   <body>
+    <!-- For ajax1 -->
     <!-- <button id="button">Get Text File</button> -->
     <!-- <br /><br /> -->
     <!-- <div id="text"></div> -->
-    <button id="button1">Get User</button>
+
+    <!-- For ajax2 -->
+    <!-- <button id="button1">Get User</button>
     <button id="button2">Get Users</button>
     <br /><br />
     <h1>User</h1>
     <div id="user"></div>
     <h1>Users</h1>
+    <div id="users"></div> -->
+
+    <!-- For ajax3 -->
+    <!-- <button id="button">Load Github Users</button>
+    <br /><br />
+    <h1>Github Users</h1>
+    <div id="users"></div> -->
+
+    <!-- For ajax4 -->
+    <button id="button">Get Name</button>
+    <hr />
+    <h1>GET FORM</h1>
+    <form action="process.php" method="GET">
+      <input type="text" name="name" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h1>AJAX GET FORM</h1>
+    <form id="getForm">
+      <input type="text" name="name" id="name1" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h1>AJAX POST FORM</h1>
+    <form id="postForm">
+      <input type="text" name="name" id="name2" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h1>POST FORM</h1>
+    <form action="process.php" method="POST">
+      <input type="text" name="name" />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <!-- For ajax5 -->
+    <br />
+    <h1>Users</h1>
+    <button id="button1">Get Users</button>
+    <br />
+
     <div id="users"></div>
+
     <!-- <script src="ajax1.js"></script> -->
-    <script src="ajax2.js"></script>
+    <!-- <script src="ajax2.js"></script> -->
+    <!-- <script src="ajax3.js"></script> -->
+    <script src="ajax4.js"></script>
+    <script src="ajax5.js"></script>
   </body>
 </html>
