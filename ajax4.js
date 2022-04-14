@@ -23,7 +23,7 @@ function postName(e) {
   //   var params = `name=${name}`;
   var xhr = new XMLHttpRequest();
   xhr.open("POST", `process.php`, true);
-  xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+  xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded"); //(header, value)
   xhr.onload = function () {
     console.log(this.responseText);
   };
